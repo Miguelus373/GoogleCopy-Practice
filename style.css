@@ -1,0 +1,99 @@
+h1 {
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 165px;
+}
+
+input {
+    height: 30px;
+    width: 510px;
+    margin-left: 380px;
+    margin-right: 380px;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 20px;
+    }
+
+#Gmail {
+    position: absolute;
+    right: 200px;
+    top: 20px;
+}
+
+#Imagenes {
+    position: absolute;
+    right: 120px;
+    top: 20px;
+}
+
+button {
+    border-width: 2px;
+    border-color: transparent;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+}
+
+#bus {
+    margin-left: 470px;
+}
+
+.search {
+    background-color: white;
+   }
+
+ul, p {
+    color: rgb(80, 79, 79);
+    background-color: rgb(236, 236, 236);
+    border-color: red;
+    border-width: 2px;
+    }
+
+li {
+    display: inline;
+    font-size: 13px;
+}
+
+.country {
+    position: absolute;
+    bottom: 22px;
+    left: 0px;
+    padding: 10px 1277px 10px 10px;
+    font-size: 15px;
+    border: 1px solid rgb(199, 197, 197);
+    }
+
+.left {
+    position: fixed;
+    bottom: -16px;
+    left: 0;
+    padding: 12px 650px 12px 10px;
+    font-size: 12px;
+}
+
+.right {
+    position: fixed;
+    bottom: -16px;
+    right: 0;
+    padding: 12px 10px 12px 550px;
+    font-size: 12px;
+}
+
+#Gmail:hover, #Imagenes:hover, li:hover {
+    text-decoration: underline;
+}
+
+button:hover {
+    color: black;
+    border-color: rgb(192, 190, 190);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+}
+
+#l2, #l3, #l4 {
+    margin-left: 20px;
+}
+
+#r1, #r2 {
+    margin-right: 20px;
+}
